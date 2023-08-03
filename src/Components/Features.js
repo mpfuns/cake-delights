@@ -1,6 +1,6 @@
 export default function Features (props){
     return (
-        <section id='Features'>
+        <section id='features'>
 <div className="container">
     <div>
 

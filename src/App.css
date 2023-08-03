@@ -149,26 +149,34 @@ align-items: center;
 }
 
 /* Highlights*/
-#main_wave{
+.wave_container{
   position: relative;
 }
 #top_wave{
-
- width: 98.9vw;
+  position: relative;
+ width: 100%;
  height: 2vh; 
-margin-bottom: 20px;
+ transform: translateY(-35%);
+
     
 }
 #bottom_wave{
-  width:98.9vw;
-  height: 2vh; 
+  position:absolute;
+  width: 100%;
+  height: 2vh;
+  transform: translateY(60px);
+ 
+ 
+;
+ 
+
+ 
  
      
  }
-
-
-
-
+ #highlights{
+margin-top: 64px;
+ }
 
 .section__title{
 color: black;
@@ -210,6 +218,13 @@ color: black;
 .highlight__para{
   text-align: center;
   max-width: 280px;
+}
+
+/* Features */ 
+
+#features{
+
+  background-color: #C57B57;
 }
 
 

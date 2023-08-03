@@ -6,7 +6,7 @@ import Features from './Components/Features';
 import logo from './Components/img/Cake Delights (1).png'
 import headerPic from './Components/img/undraw_birthday_cake_re_bsw5.svg'
 import topWave  from "./Components/img/topwave.svg"
-import bottomWave from "./Components/img/bottomwave.svg"
+import bottomWave from "./Components/img/bottom-svgbetter.svg"
 function App() {
   return (
     <div className="App">
@@ -15,15 +15,18 @@ function App() {
     <Header headerPic={headerPic}/>
     </section>
     <main>
-    <div id="main_wave">
+    <div>
+    <div className='wave_container'>
     <div id='top_wave'>
     <img  className='wave-img' src={topWave}/>
     </div>
+    </div>
     <Highlights />
+    <div className='wave_container'>
     <div id='bottom_wave'>
     <img  src={bottomWave}/>
     </div>
-    
+      </div>
     </div>
     
     <Features />
