@@ -24,7 +24,7 @@ h2{
 
 
 p{
-  line-height:1.25;
+  line-height:1.5;
   font-size: 16px;
 } 
 li{
@@ -149,6 +149,27 @@ align-items: center;
 }
 
 /* Highlights*/
+#main_wave{
+  position: relative;
+}
+#top_wave{
+
+ width: 98.9vw;
+ height: 2vh; 
+margin-bottom: 20px;
+    
+}
+#bottom_wave{
+  width:98.9vw;
+  height: 2vh; 
+ 
+     
+ }
+
+
+
+
+
 .section__title{
 color: black;
 }
