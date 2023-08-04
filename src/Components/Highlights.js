@@ -3,7 +3,7 @@ export default function Highlights (props){
         <section id='highlights'>
 <div className="container">
     <div className="big-row">
-        <h2 className="section__title">Why Choose <span className="neon-blue">Cake Delights</span> </h2>
+        <h2 className="section__title-b">Why Choose <span className="neon-blue">Cake Delights</span> </h2>
         <div className="highlight__wrapper">
         <div className="highlight">
                 <div className="highlight__img">

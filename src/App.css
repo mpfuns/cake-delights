@@ -7,6 +7,10 @@
   margin: 0;
   box-sizing: border-box; 
 }
+body{
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 h1, h2, h3, h4,h5, h6, span{
   color: white;
   text-align: center;
@@ -150,35 +154,31 @@ align-items: center;
 
 /* Highlights*/
 .wave_container{
-  position: relative;
+  width: 100%;
+ height: 2vh; 
 }
 #top_wave{
   position: relative;
- width: 100%;
- height: 2vh; 
- transform: translateY(-35%);
+ 
+ transform: translateY(-75%);
 
     
 }
 #bottom_wave{
-  position:absolute;
-  width: 100%;
-  height: 2vh;
-  transform: translateY(60px);
- 
- 
-;
- 
-
- 
- 
+  position: relative;
+  margin-bottom: 3.5%;
      
  }
+ #both_wave{
+position: relative;
+
+ }
+
  #highlights{
 margin-top: 64px;
  }
 
-.section__title{
+.section__title-b{
 color: black;
 }
 
@@ -223,8 +223,8 @@ color: black;
 /* Features */ 
 
 #features{
-
-  background-color: #C57B57;
+  height: 1000px;
+  background-color: #C57B57; 
 }
 
 
