@@ -226,6 +226,31 @@ color: black;
   height: 1000px;
   background-color: #C57B57; 
 }
+.cakes-container{
+  display: flex;
+}
+.cake{
+  width:25%;
+  padding:24px;
+}
+
+.cake__img{
+ 
+  
+  transition: all 300ms ease;
+  cursor:no-drop;
+}
+.cake__img-wrapper{
+  object-fit: contain;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+.cake:hover .cake__img{
+  transform: scale(1.5);
+}
 
 
 /*Small phones, tablets, large smartphone */ 
