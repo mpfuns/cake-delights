@@ -235,22 +235,47 @@ color: black;
 }
 
 .cake__img{
- 
-  
+  transform: scale(1);
   transition: all 300ms ease;
-  cursor:no-drop;
+  cursor:not-allowed;
 }
 .cake__img-wrapper{
-  object-fit: contain;
+
   margin-bottom: 8px;
   border-radius: 8px;
   overflow: hidden;
+  display: flex;
 
 }
 
 .cake:hover .cake__img{
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
+
+.cake__title{
+
+  font-size: 20px;
+  margin-bottom: 8px;
+  transition: all 300ms ease;
+;
+  
+ 
+}
+/* issue with effect */
+  .cake__title:hover{
+  text-decoration: underline;
+  cursor:not-allowed
+
+}
+.cake__stars{
+margin-bottom: 8px;
+color: #fabf2a;
+
+}
+.cake__rating{
+  display: flex;
+}
+
 
 
 /*Small phones, tablets, large smartphone */ 

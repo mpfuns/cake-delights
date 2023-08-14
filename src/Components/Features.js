@@ -127,10 +127,13 @@ const cakes = props.data.map((cake)=>{
             <div className="cake__title">
             {cake.title}
             </div>
-            <div>
+            <div className="cake__rating">
             
             {stars(cake.rating)}
-            <p>({cake.rating})</p>
+            <div> 
+                <p>({cake.rating})</p>
+            </div>
+           
             </div>
             
           
