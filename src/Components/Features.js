@@ -124,8 +124,8 @@ const cakes = props.data.map((cake)=>{
             <figure className="cake__img-wrapper">
                 <img className="cake__img" src={cake.img} alt={`${cake.title} picture`}/>
             </figure>
-            <div className="cake__title">
-            {cake.title}
+            <div className="cake__title" >
+           {cake.title}
             </div>
             <div className="cake__rating">
             
