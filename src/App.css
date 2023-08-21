@@ -223,8 +223,8 @@ color: black;
 /* Features */ 
 
 #features{
-  height: 1000px;
   background-color: #C57B57; 
+  color: white;
  
 }
 .cakes-container{
@@ -271,6 +271,21 @@ color: #fabf2a;
 }
 .cake__rating{
   display: flex;
+}
+.cake__price-sale{
+  text-decoration: line-through ;
+  padding-right: 6px;
+  color:lightgray;
+}
+.latest {
+  color: black;
+}
+
+.latest-container{
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  
 }
 
 

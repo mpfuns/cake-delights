@@ -4,6 +4,7 @@ import Nav from './Components/Nav';
 import Header from './Components/Header';
 import Highlights from './Components/Highlights';
 import Features from './Components/Features';
+import Latest from './Components/Latest';
 //images
 import logo from './Components/img/Cake Delights (1).png'
 import headerPic from './Components/img/undraw_birthday_cake_re_bsw5.svg'
@@ -36,6 +37,7 @@ function App() {
       </div>
     </div>
     <Features data={dataSeller} />
+    <Latest data={dataLast}/>
     </main>
     </div>
   );

@@ -154,7 +154,7 @@ const cakes = props.data.map((cake)=>{
         <section id='features'>
 <div className="container">
     <div className="big-row">
-    <h2>Features <span className="neon-blue">Cakes</span></h2>
+    <h2>Featured <span className="neon-blue">Cakes</span></h2>
     <div className="cakes-container">
         {cakes}
     </div>
