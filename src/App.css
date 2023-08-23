@@ -27,6 +27,7 @@ h1{
 }
 
 h2{
+  font-size:26px;
  margin-bottom: 32px; 
 }
 
@@ -244,7 +245,7 @@ align-items: center;
 }
 #bottom_wave{
   position: relative;
-  margin-bottom: 3.5%;
+  margin-bottom: 3%;
      
  }
  #both_wave{
@@ -263,15 +264,14 @@ color: black;
 .highlight__wrapper{
 
   display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-direction: row;
+
+  flex-wrap: wrap;
 }
 .highlight{
   padding: 0 24px;
   width: calc(100%/3);
   display: flex;
-  justify-content: center;
+  
   align-items: center;
   flex-direction: column;
 }
@@ -292,6 +292,7 @@ color: black;
   color: black;
   font-size: 20px;
   margin-bottom: 16px;
+  text-align: center;
 }
 .highlight__para{
   text-align: center;
@@ -307,6 +308,10 @@ color: black;
 }
 .cakes-container{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
 .cake{
   width:25%;
@@ -361,12 +366,7 @@ color: #fabf2a;
   color: black;
 }
 
-.latest-container{
-  justify-content: center;
-  width: 100%;
-  flex-wrap: wrap;
-  
-}
+
 /*EXPLore */
 #explore{
   background-color: #C57B57; 
@@ -398,8 +398,28 @@ color: #fff
 /*Small phones, tablets, large smartphone */ 
 @media (max-width: 768px){
   
+  .header__description{
+    padding: 0 24px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  button{
+ font-size: 16px ;
+  }
+  .cake{
+    width: 50%;
+  }
+  #bottom_wave{
+   
+    margin-bottom: 1.5%;
+       
+   }
 } 
-/*Small Phones*/
+/*Small Phones  large smartphone */
 @media (max-width: 550px){
   .nav__list{
     display: none;
@@ -408,6 +428,15 @@ color: #fff
   .btn__menu{
     display: block;
   }
+  .highlight{
+    width:100%;
+    margin-bottom: 24px;
+  }
+  #bottom_wave{
+   
+    margin-bottom: 0.4%;
+       
+   }
 }
 
 

@@ -150,7 +150,7 @@ export default function Latest (props){
   <div className="container">
       <div className="big-row">
       <h2 className="latest">Latest <span className="neon-blue">Cakes</span></h2>
-      <div className="cakes-container latest-container">
+      <div className="cakes-container ">
           {cakes}
       </div>
       </div>
