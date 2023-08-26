@@ -23,7 +23,7 @@ if(menuDrop === true){
              
           <ul className="nav__list">
             <li><a href="#" className="nav_link">Home</a></li>
-            <li><a href="#" className="nav_link">Contact</a></li>
+            <li><a href="" className="nav_link no-cursor">Contact</a></li>
             <li><a href="#features" className="nav_link nav__link--primary">Cakes</a></li>
             </ul> 
 
