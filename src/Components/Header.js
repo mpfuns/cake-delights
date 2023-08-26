@@ -1,4 +1,4 @@
-export default function Header (props){
+export default function Header (){
     return (
         <header >
             <div className="header__container">
@@ -8,7 +8,7 @@ export default function Header (props){
                     <a href='#features'><button className="btn">Browse Cakes</button></a>
                 </div>
                 <figure className="header__img--wrapper">
-                    <img src={props.headerPic}/>
+                    <img src="undraw_birthday_cake_re_bsw5.svg"/>
                 </figure>
             </div>
         </header>

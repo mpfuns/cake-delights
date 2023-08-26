@@ -245,7 +245,7 @@ align-items: center;
 }
 #bottom_wave{
   position: relative;
-  margin-bottom: 2.7%;
+  margin-bottom: 3.7%;
      
  }
  #both_wave{
@@ -419,8 +419,19 @@ color: #fff
        
    }
 } 
+
+/*wave bottom */
+
+@media (max-width: 912px){
+  #bottom_wave{
+   
+    margin-bottom: 2.5%;
+       
+   }
+
+}
 /*Small Phones  large smartphone */
-@media (max-width: 550px){
+@media (max-width: 557px){
   .nav__list{
     display: none;
 

@@ -1,7 +1,7 @@
 import React from "react"
 
 
-export default function Nav (props){
+export default function Nav (){
     const [menuDrop, setMenuDrop] =  React.useState(false)
 
 function handleClick(){
@@ -19,7 +19,7 @@ if(menuDrop === true){
     return (
         <nav>
             <div className="nav__container">
-                <figure className="logo__container"><img src={props.logo} alt=" Cake Delights's logo"/></figure>
+                <figure className="logo__container"><img src='Cake-Delights.png' alt=" Cake Delights's logo"/></figure>
              
           <ul className="nav__list">
             <li><a href="#" className="nav_link">Home</a></li>

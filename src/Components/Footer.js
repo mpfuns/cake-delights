@@ -1,9 +1,9 @@
-export default function Footer (props){
+export default function Footer (){
     return (
         <footer>
 <div className="container">
     <div className="big-row row_column">
-    <a href="#" className="footer__logo"><img  className="footer__logo--img" src={props.logo}/></a>
+    <a href="#" className="footer__logo"><img  className="footer__logo--img" src="Cake-Delights.png"/></a>
     <div className="footer__list">
             <a href="" className="footer__link no-cursor">Home</a>
             <a href="" className="footer__link no-cursor">About</a>
