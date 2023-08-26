@@ -209,7 +209,7 @@ padding: 32px 0;
 
 /*Header*/
 header{
-  height: calc(100vh -80vh);
+  height: 85vh;
 }
 .header__container{
 
